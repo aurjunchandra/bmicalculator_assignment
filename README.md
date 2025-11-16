@@ -1,16 +1,38 @@
 # bmicalculator_assignment
 
-A new Flutter project.
+BMI Calculator – Flutter App
 
-## Getting Started
+A modern, user-friendly BMI (Body Mass Index) Calculator built with Flutter.
+Supports multiple units, smart conversions, category color badges, and beautiful Material 3 UI.
 
-This project is a starting point for a Flutter application.
+**Features
+Input Units**
 
-A few resources to get you started if this is your first Flutter project:
+Weight
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Kilograms (kg)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Pounds (lb)
+
+Height
+
+Meters (m)
+
+Centimeters (cm)
+
+Feet + Inches (ft + in)
+
+**Unit Conversions**
+Conversion	Formula
+kg from lb	kg = lb × 0.45359237
+BMI Formula
+BMI = weight_kg / (height_m)^2
+m from cm	m = cm / 100
+m from ft+in	m = (feet × 12 + inches) × 0.0254
+
+**Color-Coded Categories
+BMI Range	Category	Color**
+< 18.5	Underweight	Blue
+18.5 – 24.9	Normal	Green
+25.0 – 29.9	Overweight	Orange
+≥ 30.0	Obese	Red
